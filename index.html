@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HVAC Services - Commercial & Residential</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Professional HVAC services for commercial and residential clients. Contact us for heating, ventilation, and air conditioning solutions.">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- AOS Library for Animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Calendly Inline Widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <!-- Logo -->
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <!-- Navigation Menu -->
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#areas" class="nav-link">Areas Serviced</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                    <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                </ul>
+            </nav>
+            <!-- Header Content -->
+            <div class="header-content" data-aos="fade-down">
+                <h1>Professional HVAC Services</h1>
+                <p>Your comfort is our priority. We offer commercial & residential solutions.</p>
+                <a href="tel:+1234567890" class="btn">Call Us Now</a>
+                <a href="https://wa.me/1234567890" class="btn whatsapp">WhatsApp Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Commercial HVAC</h3>
+                    <p>Top-notch HVAC services for commercial properties.</p>
+                </div>
+                <div class="service">
+                    <h3>Residential HVAC</h3>
+                    <p>Reliable HVAC solutions for your home comfort.</p>
+                </div>
+                <!-- Add more services as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" data-aos="fade-right">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a dedicated team of HVAC professionals with over 20 years of experience.</p>
+            <!-- Add more content about your company -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" data-aos="fade-left">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <!-- Testimonials Slider or Static Testimonials -->
+            <div class="testimonial">
+                <p>"Excellent service and friendly staff!" - John Doe</p>
+            </div>
+            <!-- Add more testimonials -->
+        </div>
+    </section>
+
+    <!-- Areas Serviced Section -->
+    <section id="areas" data-aos="fade-up">
+        <div class="container">
+            <h2>Areas We Service</h2>
+            <ul class="areas-list">
+                <li>City A</li>
+                <li>City B</li>
+                <li>City C</li>
+                <li>City D</li>
+                <!-- Add more areas as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                    
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" data-aos="fade-up">
+        <div class="container">
+            <h2>Schedule an Appointment</h2>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/your-calendly-username" style="min-width:320px;height:630px;"></div>
+            <!-- Calendly inline widget end -->
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section id="map" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div id="googleMap"></div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HVAC Services. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="https://www.facebook.com/yourpage">Facebook</a>, 
+                <a href="https://www.twitter.com/yourprofile">Twitter</a>, 
+                <a href="https://www.instagram.com/yourprofile">Instagram</a>
+            </p>
+            <a href="#home" id="back-to-top" title="Go to top">&#8679;</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Links -->
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Calendly Widget Script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
